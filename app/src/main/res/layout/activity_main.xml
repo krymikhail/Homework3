@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#A4D04F"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/owl_icon"
+            android:layout_width="256dp"
+            android:layout_height="330dp"
+            android:contentDescription="Owl Icon"
+            android:src="@drawable/owl_icon" />
+
+        <TextView
+            android:id="@+id/trivia_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trivia"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Log in with Facebook"
+        android:drawableLeft="@drawable/facebook_icon"
+    android:textColor="#3b5998"
+    android:backgroundTint="#ffffff"
+    android:textAllCaps="false"
+    android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/or_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="#A4A4A4"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/signup_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up with Email"
+        android:textColor="#A4A4A4"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/game_now_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GAME NOW"
+        android:layout_margin="16dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3b83f1"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textSize="16sp" />
+
+</LinearLayout>
